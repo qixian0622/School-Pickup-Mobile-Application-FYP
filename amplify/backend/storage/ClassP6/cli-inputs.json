@@ -1,0 +1,10 @@
+{
+  "resourceName": "ClassP6",
+  "tableName": "ClassP6",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

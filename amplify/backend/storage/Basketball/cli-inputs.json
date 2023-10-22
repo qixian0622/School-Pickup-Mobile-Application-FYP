@@ -1,0 +1,10 @@
+{
+  "resourceName": "Basketball",
+  "tableName": "Basketball",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

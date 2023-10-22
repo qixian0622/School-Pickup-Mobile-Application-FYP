@@ -1,0 +1,10 @@
+{
+  "resourceName": "CCAAttendance",
+  "tableName": "CCAAttendance",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

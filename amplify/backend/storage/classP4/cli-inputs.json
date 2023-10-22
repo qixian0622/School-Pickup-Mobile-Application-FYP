@@ -1,0 +1,10 @@
+{
+  "resourceName": "ClassP4",
+  "tableName": "ClassP4",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

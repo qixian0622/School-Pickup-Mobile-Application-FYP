@@ -1,0 +1,10 @@
+{
+  "resourceName": "AdvancedMathematics",
+  "tableName": "AdvancedMathematics",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

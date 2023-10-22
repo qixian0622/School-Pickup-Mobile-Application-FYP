@@ -1,0 +1,1636 @@
+{
+  "analytics": {},
+  "api": {
+    "Project": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    },
+    "api55db091d": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ClassLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "CCALambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "EnglishLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "UserLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "GuardianLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ChildLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ClassP2Lambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ClassP3Lambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ClassP4Lambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ClassP5Lambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ClassP6Lambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "MathLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "MotherTongueLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ArtLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "MusicLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "SocialStudiesLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "PhysicalEducation"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ScienceLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "AdvancedMathLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "TeacherLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "TeacherClassLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "TeacherSubjectLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "BasketballLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "BadmintonLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "SoccerLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "NetballLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "AttendanceLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "SchoolAdminLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ChildCCALambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ccaAttendanceLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ReliefTeacherLambda"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "GeoLambda"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "Project": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL",
+          "NAME",
+          "PHONE_NUMBER",
+          "PROFILE"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "AdvancedMathLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "AdvancedMathematics"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ArtLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Art"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "AttendanceLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "AttendanceRecord"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "BadmintonLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Badminton"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "BasketballLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Basketball"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "CCALambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "CCA"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ChildCCALambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ChildCCATable"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ChildLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ChildTable"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ClassLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Class"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ClassP2Lambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ClassP2"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ClassP3Lambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ClassP3"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ClassP4Lambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ClassP4"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ClassP5Lambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ClassP5"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ClassP6Lambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ClassP6"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "EnglishLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "English"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "GeoLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "GeoLocation"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "GuardianLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "GuardianTable"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "MathLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Mathematics"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "MotherTongueLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "MotherTongue"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "MusicLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Music"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "NetballLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "NetBall"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "PhysicalEducation": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "PhysicalEducation"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ReliefTeacherLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ReliefTeacherTable"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "SchoolAdminLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "SchoolAdminTable"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ScienceLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Science"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "SoccerLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "Soccer"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "SocialStudiesLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "SocialStudies"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "TeacherClassLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "TeacherClass"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "TeacherLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "TeachersTable"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "TeacherSubjectLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "TeacherSubject"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "UserLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "user"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ccaAttendanceLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "CCAAttendance"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "notifications": {},
+  "parameters": {
+    "AMPLIFY_analytics_Pinpoint_Id": {
+      "usedBy": [
+        {
+          "category": "analytics",
+          "resourceName": "Pinpoint"
+        }
+      ]
+    },
+    "AMPLIFY_analytics_Pinpoint_Name": {
+      "usedBy": [
+        {
+          "category": "analytics",
+          "resourceName": "Pinpoint"
+        }
+      ]
+    },
+    "AMPLIFY_analytics_Pinpoint_Region": {
+      "usedBy": [
+        {
+          "category": "analytics",
+          "resourceName": "Pinpoint"
+        }
+      ]
+    },
+    "AMPLIFY_function_AdvancedMathLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "AdvancedMathLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_AdvancedMathLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "AdvancedMathLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ArtLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ArtLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ArtLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ArtLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_AttendanceLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "AttendanceLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_AttendanceLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "AttendanceLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_BadmintonLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "BadmintonLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_BadmintonLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "BadmintonLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_BasketballLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "BasketballLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_BasketballLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "BasketballLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_CCALambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "CCALambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_CCALambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "CCALambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ChildCCALambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ChildCCALambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ChildCCALambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ChildCCALambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ChildLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ChildLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ChildLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ChildLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ChildSubjectLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ChildSubjectLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ChildSubjectLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ChildSubjectLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP2Lambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP2Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP2Lambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP2Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP3Lambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP3Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP3Lambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP3Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP4Lambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP4Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP4Lambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP4Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP5Lambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP5Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP5Lambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP5Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP6Lambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP6Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ClassP6Lambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ClassP6Lambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_EnglishLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "EnglishLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_EnglishLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "EnglishLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_GeoLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GeoLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_GeoLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GeoLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_GuardianLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GuardianLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_GuardianLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GuardianLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_MathLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "MathLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_MathLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "MathLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_MotherTongueLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "MotherTongueLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_MotherTongueLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "MotherTongueLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_MusicLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "MusicLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_MusicLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "MusicLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_NetballLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "NetballLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_NetballLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "NetballLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_PhysicalEducation_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "PhysicalEducation"
+        }
+      ]
+    },
+    "AMPLIFY_function_PhysicalEducation_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "PhysicalEducation"
+        }
+      ]
+    },
+    "AMPLIFY_function_ReliefTeacherLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ReliefTeacherLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ReliefTeacherLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ReliefTeacherLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_SchoolAdminLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SchoolAdminLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_SchoolAdminLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SchoolAdminLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ScienceLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ScienceLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ScienceLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ScienceLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_SoccerLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SoccerLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_SoccerLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SoccerLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_SocialStudiesLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SocialStudiesLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_SocialStudiesLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SocialStudiesLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_TeacherClassLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TeacherClassLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_TeacherClassLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TeacherClassLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_TeacherLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TeacherLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_TeacherLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TeacherLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_TeacherSubjectLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TeacherSubjectLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_TeacherSubjectLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TeacherSubjectLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_UserLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "UserLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_UserLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "UserLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ccaAttendanceLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ccaAttendanceLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_ccaAttendanceLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ccaAttendanceLambda"
+        }
+      ]
+    },
+    "AMPLIFY_notifications_Pinpoint_Id": {
+      "usedBy": [
+        {
+          "category": "notifications",
+          "resourceName": "Pinpoint"
+        }
+      ]
+    },
+    "AMPLIFY_notifications_Pinpoint_Name": {
+      "usedBy": [
+        {
+          "category": "notifications",
+          "resourceName": "Pinpoint"
+        }
+      ]
+    },
+    "AMPLIFY_notifications_Pinpoint_Region": {
+      "usedBy": [
+        {
+          "category": "notifications",
+          "resourceName": "Pinpoint"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "AdvancedMathematics": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Art": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "AttendanceRecord": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Badminton": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Basketball": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "CCA": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "CCAAttendance": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ChildCCATable": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ChildTable": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Class": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ClassP2": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ClassP3": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ClassP4": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ClassP5": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ClassP6": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "English": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "GeoLocation": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "GuardianTable": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Mathematics": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "MotherTongue": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Music": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "NetBall": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "PhysicalEducation": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "ReliefTeacherTable": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "SchoolAdminTable": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Science": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "Soccer": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "SocialStudies": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "TeacherClass": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "TeacherSubject": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "TeachersTable": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "user": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "resourceName": "Soccer",
+  "tableName": "Soccer",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -1,0 +1,10 @@
+{
+  "resourceName": "ChildCCATable",
+  "tableName": "ChildCCATable",
+  "partitionKey": {
+    "fieldName": "ChildID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

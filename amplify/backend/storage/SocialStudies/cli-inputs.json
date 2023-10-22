@@ -1,0 +1,10 @@
+{
+  "resourceName": "SocialStudies",
+  "tableName": "SocialStudies",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

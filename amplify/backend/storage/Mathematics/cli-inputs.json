@@ -1,0 +1,10 @@
+{
+  "resourceName": "Mathematics",
+  "tableName": "Mathematics",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

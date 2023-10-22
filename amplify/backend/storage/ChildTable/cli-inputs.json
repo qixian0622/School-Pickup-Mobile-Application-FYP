@@ -1,0 +1,10 @@
+{
+  "resourceName": "ChildTable",
+  "tableName": "ChildTable",
+  "partitionKey": {
+    "fieldName": "UserID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

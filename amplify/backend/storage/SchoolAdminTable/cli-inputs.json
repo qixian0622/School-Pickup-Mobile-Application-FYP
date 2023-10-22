@@ -1,0 +1,10 @@
+{
+  "resourceName": "SchoolAdminTable",
+  "tableName": "SchoolAdminTable",
+  "partitionKey": {
+    "fieldName": "UserID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

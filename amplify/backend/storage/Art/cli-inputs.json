@@ -1,0 +1,10 @@
+{
+  "resourceName": "Art",
+  "tableName": "Art",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

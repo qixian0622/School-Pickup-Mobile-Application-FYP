@@ -1,0 +1,208 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-project-dev-225817-authRole",
+      "UnauthRoleArn": "arn:aws:iam::754526809700:role/amplify-project-dev-225817-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::754526809700:role/amplify-project-dev-225817-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-project-dev-225817-deployment",
+      "UnauthRoleName": "amplify-project-dev-225817-unauthRole",
+      "StackName": "amplify-project-dev-225817",
+      "StackId": "arn:aws:cloudformation:us-east-1:754526809700:stack/amplify-project-dev-225817/390e5d00-15c4-11ee-897a-0a1302900a57",
+      "AmplifyAppId": "do0zvmtihjnfy"
+    },
+    "categories": {
+      "function": {
+        "ChildLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ChildLambda-3832373075776349374e-build.zip"
+        },
+        "ChildSubjectLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ChildSubjectLambda-79735a662b535a42636a-build.zip"
+        },
+        "ClassLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ClassLambda-4447665642644e717156-build.zip"
+        },
+        "CCALambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/CCALambda-334367332b3663577865-build.zip"
+        },
+        "EnglishLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/EnglishLambda-6d635a6c2b4143683747-build.zip"
+        },
+        "UserLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/UserLambda-702f77424b6b69693255-build.zip"
+        },
+        "GuardianLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/GuardianLambda-65375550424366514730-build.zip"
+        },
+        "ClassP2Lambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ClassP2Lambda-4c394859615072327732-build.zip"
+        },
+        "ClassP3Lambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ClassP3Lambda-683544684377326b4348-build.zip"
+        },
+        "ClassP4Lambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ClassP4Lambda-4a2b344471546b414b42-build.zip"
+        },
+        "ClassP5Lambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ClassP5Lambda-327a7672753433434e7a-build.zip"
+        },
+        "ClassP6Lambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ClassP6Lambda-714c445a4d3664477139-build.zip"
+        },
+        "MathLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/MathLambda-5238626d4e65486c5032-build.zip"
+        },
+        "MotherTongueLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/MotherTongueLambda-536a3432366569756863-build.zip"
+        },
+        "ArtLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ArtLambda-512f4e6a43487147534f-build.zip"
+        },
+        "MusicLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/MusicLambda-696a437169593345716f-build.zip"
+        },
+        "SocialStudiesLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/SocialStudiesLambda-444275354656344b414a-build.zip"
+        },
+        "PhysicalEducation": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/PhysicalEducation-584c67634f4a4373564c-build.zip"
+        },
+        "ScienceLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ScienceLambda-7a566374523768504579-build.zip"
+        },
+        "AdvancedMathLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/AdvancedMathLambda-565247757336575a4338-build.zip"
+        },
+        "TeacherLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/TeacherLambda-4369424f6e4b67747771-build.zip"
+        },
+        "TeacherClassLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/TeacherClassLambda-47444954444f4c664979-build.zip"
+        },
+        "TeacherSubjectLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/TeacherSubjectLambda-76647352616a6841334d-build.zip"
+        },
+        "BasketballLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/BasketballLambda-78626c7055695977456b-build.zip"
+        },
+        "BadmintonLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/BadmintonLambda-4d537a54794d5a7a7939-build.zip"
+        },
+        "SoccerLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/SoccerLambda-354270673072706c5537-build.zip"
+        },
+        "NetballLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/NetballLambda-5a2b58554a75672b4363-build.zip"
+        },
+        "AttendanceLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/AttendanceLambda-6a41454a3553517a5847-build.zip"
+        },
+        "SchoolAdminLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/SchoolAdminLambda-2b5a505061752f5a6f42-build.zip"
+        },
+        "ChildCCALambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ChildCCALambda-4e726176434376396f55-build.zip"
+        },
+        "ccaAttendanceLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ccaAttendanceLambda-6b4a6d54443856644569-build.zip"
+        },
+        "ReliefTeacherLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/ReliefTeacherLambda-6a7842542f4d7a2b646d-build.zip"
+        },
+        "GeoLambda": {
+          "deploymentBucketName": "amplify-project-dev-225817-deployment",
+          "s3Key": "amplify-builds/GeoLambda-6f6363365938666f6c54-build.zip"
+        }
+      },
+      "storage": {
+        "Child": {},
+        "Class": {},
+        "CCA": {},
+        "English": {},
+        "user": {},
+        "GuardianTable": {},
+        "ChildTable": {},
+        "ClassP2": {},
+        "ClassP3": {},
+        "ClassP4": {},
+        "ClassP5": {},
+        "ClassP6": {},
+        "Mathematics": {},
+        "MotherTongue": {},
+        "Art": {},
+        "Music": {},
+        "SocialStudies": {},
+        "PhysicalEducation": {},
+        "Science": {},
+        "AdvancedMathematics": {},
+        "TeachersTable": {},
+        "TeacherClass": {},
+        "TeacherSubject": {},
+        "Basketball": {},
+        "Badminton": {},
+        "Soccer": {},
+        "NetBall": {},
+        "AttendanceRecord": {},
+        "SchoolAdminTable": {},
+        "ChildCCATable": {},
+        "CCAAttendance": {},
+        "ReliefTeacherTable": {},
+        "GeoLocation": {}
+      },
+      "api": {
+        "api55db091d": {},
+        "Project": {}
+      },
+      "auth": {
+        "Project": {}
+      },
+      "analytics": {
+        "project": {},
+        "Pinpoint": {
+          "Id": "b82941e027ca4e2b8b975f2796a800a5",
+          "Name": "project-dev",
+          "Region": "us-east-1"
+        }
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "project-dev",
+          "Id": "b82941e027ca4e2b8b975f2796a800a5",
+          "Region": "us-east-1"
+        }
+      }
+    }
+  }
+}

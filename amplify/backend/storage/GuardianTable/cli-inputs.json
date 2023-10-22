@@ -1,0 +1,10 @@
+{
+  "resourceName": "GuardianTable",
+  "tableName": "GuardianTable",
+  "partitionKey": {
+    "fieldName": "UserID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

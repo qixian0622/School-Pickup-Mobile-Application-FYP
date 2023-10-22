@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "paths": {
+    "/class": {
+      "name": "/class",
+      "lambdaFunction": "ClassLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/class/getclassid": {
+      "name": "/class/getclassid",
+      "lambdaFunction": "ClassLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/class/getspecficlass": {
+      "name": "/class/getspecficlass",
+      "lambdaFunction": "ClassLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/class/getsubjects": {
+      "name": "/class/getsubjects",
+      "lambdaFunction": "ClassLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/class/getmyscheduleday": {
+      "name": "/class/getmyscheduleday",
+      "lambdaFunction": "ClassLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/ccacoach": {
+      "name": "/ccacoach",
+      "lambdaFunction": "CCALambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/english": {
+      "name": "/english",
+      "lambdaFunction": "EnglishLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/user": {
+      "name": "/user",
+      "lambdaFunction": "UserLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/user/updateProfile": {
+      "name": "/user/updateProfile",
+      "lambdaFunction": "UserLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/user/getcurrentprofile": {
+      "name": "/user/getcurrentprofile",
+      "lambdaFunction": "UserLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/guardian": {
+      "name": "/guardian",
+      "lambdaFunction": "GuardianLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/guardian/getinfo": {
+      "name": "/guardian/getinfo",
+      "lambdaFunction": "GuardianLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/child": {
+      "name": "/child",
+      "lambdaFunction": "ChildLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/child/getclassid": {
+      "name": "/child/getclassid",
+      "lambdaFunction": "ChildLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/child/getAllRecords": {
+      "name": "/child/getAllRecords",
+      "lambdaFunction": "ChildLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/child/getmyrecords": {
+      "name": "/child/getmyrecords",
+      "lambdaFunction": "ChildLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/child/getinfo": {
+      "name": "/child/getinfo",
+      "lambdaFunction": "ChildLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/classp2": {
+      "name": "/classp2",
+      "lambdaFunction": "ClassP2Lambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/classp3": {
+      "name": "/classp3",
+      "lambdaFunction": "ClassP3Lambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/classp4": {
+      "name": "/classp4",
+      "lambdaFunction": "ClassP4Lambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/classp5": {
+      "name": "/classp5",
+      "lambdaFunction": "ClassP5Lambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/classp6": {
+      "name": "/classp6",
+      "lambdaFunction": "ClassP6Lambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/math": {
+      "name": "/math",
+      "lambdaFunction": "MathLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/mothertongue": {
+      "name": "/mothertongue",
+      "lambdaFunction": "MotherTongueLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/art": {
+      "name": "/art",
+      "lambdaFunction": "ArtLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/music": {
+      "name": "/music",
+      "lambdaFunction": "MusicLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/socialstudies": {
+      "name": "/socialstudies",
+      "lambdaFunction": "SocialStudiesLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/physicaleducation": {
+      "name": "/physicaleducation",
+      "lambdaFunction": "PhysicalEducation",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/science": {
+      "name": "/science",
+      "lambdaFunction": "ScienceLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/advancedmath": {
+      "name": "/advancedmath",
+      "lambdaFunction": "AdvancedMathLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/teacher": {
+      "name": "/teacher",
+      "lambdaFunction": "TeacherLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/teacher/updateprofile": {
+      "name": "/teacher/updateprofile",
+      "lambdaFunction": "TeacherLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/teacher/getinfo": {
+      "name": "/teacher/getinfo",
+      "lambdaFunction": "TeacherLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/teacherclass": {
+      "name": "/teacherclass",
+      "lambdaFunction": "TeacherClassLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/teacherclass/getclassid": {
+      "name": "/teacherclass/getclassid",
+      "lambdaFunction": "TeacherClassLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/teacherSubject": {
+      "name": "/teacherSubject",
+      "lambdaFunction": "TeacherSubjectLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/basketball": {
+      "name": "/basketball",
+      "lambdaFunction": "BasketballLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/basketball/getTodayClass": {
+      "name": "/basketball/getTodayClass",
+      "lambdaFunction": "BasketballLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/badminton": {
+      "name": "/badminton",
+      "lambdaFunction": "BadmintonLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/badminton/getTodayClass": {
+      "name": "/badminton/getTodayClass",
+      "lambdaFunction": "BadmintonLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/soccer": {
+      "name": "/soccer",
+      "lambdaFunction": "SoccerLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/soccer/getTodayClass": {
+      "name": "/soccer/getTodayClass",
+      "lambdaFunction": "SoccerLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/netball": {
+      "name": "/netball",
+      "lambdaFunction": "NetballLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/netball/getTodayClass": {
+      "name": "/netball",
+      "lambdaFunction": "NetballLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/attendance": {
+      "name": "/attendance",
+      "lambdaFunction": "AttendanceLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/attendance/gethighestid": {
+      "name": "/attendance/gethighestid",
+      "lambdaFunction": "AttendanceLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/schooladmin": {
+      "name": "/schooladmin",
+      "lambdaFunction": "SchoolAdminLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/childcca": {
+      "name": "/childcca",
+      "lambdaFunction": "ChildCCALambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/ccaAttendance": {
+      "name": "/ccaAttendance",
+      "lambdaFunction": "ccaAttendanceLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/ccaAttendance/gethighestid": {
+      "name": "/ccaAttendance/gethighestid",
+      "lambdaFunction": "ccaAttendanceLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/reliefTeacher": {
+      "name": "/reliefTeacher",
+      "lambdaFunction": "ReliefTeacherLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/geolocation": {
+      "name": "/geolocation",
+      "lambdaFunction": "GeoLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

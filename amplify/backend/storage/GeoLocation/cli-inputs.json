@@ -1,0 +1,10 @@
+{
+  "resourceName": "GeoLocation",
+  "tableName": "GeoLocation",
+  "partitionKey": {
+    "fieldName": "UserID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

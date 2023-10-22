@@ -1,0 +1,10 @@
+{
+  "resourceName": "TeachersTable",
+  "tableName": "TeachersTable",
+  "partitionKey": {
+    "fieldName": "UserID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

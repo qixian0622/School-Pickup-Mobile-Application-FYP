@@ -1,0 +1,10 @@
+{
+  "resourceName": "TeacherSubject",
+  "tableName": "TeacherSubject",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

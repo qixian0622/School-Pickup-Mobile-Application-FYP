@@ -1,0 +1,10 @@
+{
+  "resourceName": "AttendanceRecord",
+  "tableName": "AttendanceRecord",
+  "partitionKey": {
+    "fieldName": "ID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
