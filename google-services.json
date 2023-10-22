@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902576728549",
+    "project_id": "jracademy-86ecd",
+    "storage_bucket": "jracademy-86ecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902576728549:android:7aaf59785bdad825ad670c",
+        "android_client_info": {
+          "package_name": "com.JrAcademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902576728549-9kl8n62ojok9gdnsnfhe72lukptjqniu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAczBG_AOiQc8QHEHWFKl2d2Aql5KPqFJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902576728549-9kl8n62ojok9gdnsnfhe72lukptjqniu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

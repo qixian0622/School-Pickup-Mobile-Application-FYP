@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "Project",
+    "slug": "Project",
+    "extra": {
+      "eas": {
+        "projectId": "bf0b66f9-0552-453d-9829-1cb712631d0a"
+      }
+    },
+    "android": {
+      "package": "com.JrAcademy",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.FYP-23-S2-02.JrAcademy"
+    }
+  }
+}
